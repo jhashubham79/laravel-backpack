@@ -1,6 +1,6 @@
 <p align="left">
     <br>
-    <a href="https://travis-ci.org/Laravel-Backpack/shubham" title="Build Status"><img src="https://img.shields.io/travis/com/Laravel-Backpack/demo"></a>
+    <a href="https://travis-ci.org/Laravel-Backpack/" title="Build Status"><img src="https://img.shields.io/travis/com/Laravel-Backpack/demo"></a>
     <a href="https://styleci.io/repos/61656673" title="Style CI"><img src="https://styleci.io/repos/61656673/shield"></a>
     <a href="https://scrutinizer-ci.com/g/laravel-backpack/demo" title="Quality Score"><img src="https://img.shields.io/scrutinizer/g/laravel-backpack/demo.svg?style=flat-square"></a>
     <a href="https://scrutinizer-ci.com/g/laravel-backpack/demo/code-structure" title="Coverage Status"><img src="https://img.shields.io/scrutinizer/coverage/g/laravel-backpack/demo.svg?style=flat-square"></a>
@@ -17,7 +17,7 @@
     <a href="https://backpackforlaravel.com/newsletter">Newsletter</a>
 </p>
 
-# Backpack\Demo
+# Backpack  by shubham
 
 Laravel BackPack's demo, which includes all Backpack packages.
 
