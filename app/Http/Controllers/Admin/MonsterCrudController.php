@@ -116,7 +116,7 @@ class MonsterCrudController extends CrudController
             ],
             [
                 'name'  => 'base64_image', // The db column name
-                'label' => 'Base64 Image'.backpack_pro_badge(), // Table column heading
+                'label' => 'Base64 Image', // Table column heading
                 'type'  => 'image',
                 'tab'   => 'Uploads',
             ],
@@ -287,14 +287,14 @@ class MonsterCrudController extends CrudController
         $this->crud->addColumn([   // EasyMDE
             'name'    => 'easymde',
             'key'     => 'easymde_markdown',
-            'label'   => 'Markdown'.backpack_pro_badge(),
+            'label'   => 'Markdown',
             'type'    => 'markdown',
             'tab'     => 'WYSIWYG Editors',
         ]);
 
         $this->crud->addColumn([   // EasyMDE
             'name'    => 'easymde',
-            'label'   => 'EasyMDE'.backpack_pro_badge(),
+            'label'   => 'EasyMDE',
             'type'    => 'easymde',
             'tab'     => 'WYSIWYG Editors',
         ]);
@@ -302,7 +302,7 @@ class MonsterCrudController extends CrudController
         $this->crud->addColumn([
             'name'    => 'ckeditor',
             'type'    => 'ckeditor',
-            'label'   => 'Ckeditor'.backpack_pro_badge(),
+            'label'   => 'Ckeditor',
             'tab'     => 'WYSIWYG Editors',
         ]);
 
@@ -316,20 +316,20 @@ class MonsterCrudController extends CrudController
         $this->crud->addColumn([
             'name'   => 'tinymce',
             'type'   => 'tinymce',
-            'label'  => 'TinyMCE'.backpack_pro_badge(),
+            'label'  => 'TinyMCE',
             'tab'    => 'WYSIWYG Editors',
         ]);
 
         $this->crud->addColumn([
             'name'    => 'wysiwyg',
             'type'    => 'wysiwyg',
-            'label'   => 'Wysiwyg'.backpack_pro_badge(),
+            'label'   => 'Wysiwyg',
             'tab'     => 'WYSIWYG Editors',
         ]);
 
         $this->crud->addColumn([
             'name'      => 'features',
-            'label'     => 'Features'.backpack_pro_badge(),
+            'label'     => 'Features',
             'type'      => 'repeatable',
             'fake'      => true,
             'subfields' => [
@@ -358,7 +358,7 @@ class MonsterCrudController extends CrudController
 
         $this->crud->addColumn([
             'name'            => 'table',
-            'label'           => 'Table'.backpack_pro_badge(),
+            'label'           => 'Table',
             'type'            => 'table',
             'tab'             => 'Miscellaneous',
             'columns'         => [
@@ -371,7 +371,7 @@ class MonsterCrudController extends CrudController
         $this->crud->addColumn([
             'name'  => 'browse_multiple', // The db column name
             'key'   => 'browse_multiple_array',
-            'label' => 'Array'.backpack_pro_badge(), // Table column heading
+            'label' => 'Array', // Table column heading
             'type'  => 'array',
             'tab'   => 'Miscellaneous',
         ]);
@@ -379,7 +379,7 @@ class MonsterCrudController extends CrudController
         $this->crud->addColumn([
             'name'  => 'table', // The db column name
             'key'   => 'table_count',
-            'label' => 'Array count'.backpack_pro_badge(), // Table column heading
+            'label' => 'Array count', // Table column heading
             'type'  => 'array_count',
             'tab'   => 'Miscellaneous',
         ]);
@@ -461,14 +461,14 @@ class MonsterCrudController extends CrudController
         $this->crud->addColumn([
             'name'  => 'dummyproducts',
             'type'  => 'relationship',
-            'label' => 'Relationship'.backpack_pro_badge(),
+            'label' => 'Relationship',
             'tab'   => 'Relationship',
         ]);
 
         $this->crud->addColumn([
             'name'  => 'address_google',
             'type'  => 'address_google',
-            'label' => 'Address Google'.backpack_pro_badge(),
+            'label' => 'Address Google',
             'tab'   => 'Time and space',
         ]);
 
@@ -491,13 +491,13 @@ class MonsterCrudController extends CrudController
         $this->crud->addColumn([
             'name'  => 'date_picker',
             'type'  => 'date_picker',
-            'label' => 'Date Picker'.backpack_pro_badge(),
+            'label' => 'Date Picker',
             'tab'   => 'Time and space',
         ]);
 
         $this->crud->addColumn([ // Date_range
             'name'       => 'start_date,end_date', // two columns with a comma
-            'label'      => 'Date Range'.backpack_pro_badge(),
+            'label'      => 'Date Range',
             'type'       => 'date_range',
             'tab'        => 'Time and space',
         ]);
@@ -505,21 +505,21 @@ class MonsterCrudController extends CrudController
         $this->crud->addColumn([
             'name'  => 'datetime_picker',
             'type'  => 'datetime_picker',
-            'label' => 'Datetime Picker'.backpack_pro_badge(),
+            'label' => 'Datetime Picker',
             'tab'   => 'Time and space',
         ]);
 
         $this->crud->addColumn([
             'name'  => 'location',
             'type'  => 'google_map',
-            'label' => 'Google Map'.backpack_pro_badge(),
+            'label' => 'Google Map',
             'tab'   => 'Time and space',
         ]);
 
         $this->crud->addColumn([
             'name'    => 'icon_picker',
             'type'    => 'icon_picker',
-            'label'   => 'Icon Picker'.backpack_pro_badge(),
+            'label'   => 'Icon Picker',
             'iconset' => 'fontawesome',
             'tab'     => 'Miscellaneous',
         ]);
@@ -541,7 +541,7 @@ class MonsterCrudController extends CrudController
         $this->crud->addColumn([
             'name'  => 'select_and_order',
             'type'  => 'select_and_order',
-            'label' => 'Select And Order'.backpack_pro_badge(),
+            'label' => 'Select And Order',
             'tab'   => 'Selects',
         ]);
 
@@ -556,7 +556,7 @@ class MonsterCrudController extends CrudController
         $this->crud->addColumn([
             'name'   => 'select2',
             'type'   => 'select2',
-            'label'  => 'Select2'.backpack_pro_badge(),
+            'label'  => 'Select2',
             'entity' => 'categorySelect2',
             'tab'    => 'Selects',
         ]);
@@ -564,7 +564,7 @@ class MonsterCrudController extends CrudController
         $this->crud->addColumn([
             'name'   => 'select2_from_ajax',
             'type'   => 'select2_from_ajax',
-            'label'  => 'Select2 From Ajax'.backpack_pro_badge(),
+            'label'  => 'Select2 From Ajax',
             'entity' => 'article',
             'tab'    => 'Selects',
         ]);
@@ -572,14 +572,14 @@ class MonsterCrudController extends CrudController
         $this->crud->addColumn([
             'name'  => 'select2_from_array',
             'type'  => 'select2_from_array',
-            'label' => 'Select2 From Array'.backpack_pro_badge(),
+            'label' => 'Select2 From Array',
             'tab'   => 'Selects',
         ]);
 
         $this->crud->addColumn([
             'name'   => 'select2_grouped_id',
             'type'   => 'select2_grouped',
-            'label'  => 'Select2 Grouped'.backpack_pro_badge(),
+            'label'  => 'Select2 Grouped',
             'entity' => 'article',
             'tab'    => 'Selects',
         ]);
@@ -587,14 +587,14 @@ class MonsterCrudController extends CrudController
         $this->crud->addColumn([
             'name'  => 'categories',
             'type'  => 'select2_multiple',
-            'label' => 'Select2 Multiple'.backpack_pro_badge(),
+            'label' => 'Select2 Multiple',
             'tab'   => 'Selects',
         ]);
 
         $this->crud->addColumn([
             'name'   => 'select2_nested_id',
             'type'   => 'select2_nested',
-            'label'  => 'Select2 Nested'.backpack_pro_badge(),
+            'label'  => 'Select2 Nested',
             'entity' => 'category',
             'tab'    => 'Selects',
         ]);
@@ -602,7 +602,7 @@ class MonsterCrudController extends CrudController
         $this->crud->addColumn([
             'name'  => 'slug',
             'type'  => 'slug',
-            'label' => 'Slug'.backpack_pro_badge(),
+            'label' => 'Slug',
             'tab'   => 'Miscellaneous',
         ]);
 
@@ -632,19 +632,19 @@ class MonsterCrudController extends CrudController
         $this->crud->addColumn([
             'name'  => 'browse',
             'type'  => 'browse',
-            'label' => 'Browse'.backpack_pro_badge(),
+            'label' => 'Browse',
             'tab'   => 'Uploads',
         ]);
 
         $this->crud->addColumn([
             'name'  => 'browse_multiple',
             'type'  => 'browse_multiple',
-            'label' => 'Browse Multiple'.backpack_pro_badge(),
+            'label' => 'Browse Multiple',
             'tab'   => 'Uploads',
         ]);
 
         $this->crud->addColumn([
-            'label'        => 'Dropzone'.backpack_pro_badge(),
+            'label'        => 'Dropzone',
             'name'         => 'dropzone',
             'type'         => 'dropzone',
             'tab'          => 'Uploads',
@@ -666,7 +666,7 @@ class MonsterCrudController extends CrudController
 
         $this->crud->addColumn([
             'name'  => 'video', // The db column name
-            'label' => 'Video'.backpack_pro_badge(), // Table column heading
+            'label' => 'Video', // Table column heading
             'type'  => 'video',
             'tab'   => 'Miscellaneous',
         ]);
@@ -675,7 +675,7 @@ class MonsterCrudController extends CrudController
             'name'  => 'browse_multiple',
             'key'   => 'browse_multiple_array',
             'type'  => 'array',
-            'label' => 'Array'.backpack_pro_badge(),
+            'label' => 'Array',
             'tab'   => 'Miscellaneous',
         ]);
     }
@@ -696,7 +696,7 @@ class MonsterCrudController extends CrudController
         if (env('GOOGLE_PLACES_KEY')) {
             $this->crud->addField([   // Address_google
                 'name'          => 'address_google',
-                'label'         => 'Address_google '.backpack_pro_badge(),
+                'label'         => 'Address_google ',
                 'type'          => 'address_google',
                 'fake'          => true,
                 'store_as_json' => true,
@@ -705,7 +705,7 @@ class MonsterCrudController extends CrudController
 
             $this->crud->addField([
                 'name'    => 'location',
-                'label'   => 'Google_map '.backpack_pro_badge(),
+                'label'   => 'Google_map ',
                 'type'    => 'google_map',
                 'fake'    => true,
                 'tab'     => 'Time and space',
@@ -851,7 +851,7 @@ class MonsterCrudController extends CrudController
         return [
             [
                 'name'              => 'text',
-                'label'             => 'Text'.backpack_free_badge(),
+                'label'             => 'Text',
                 'type'              => 'text',
                 'tab'               => 'Simple',
                 'wrapperAttributes' => [
@@ -860,7 +860,7 @@ class MonsterCrudController extends CrudController
             ],
             [
                 'name'              => 'slug',
-                'label'             => 'Slug'.backpack_pro_badge(),
+                'label'             => 'Slug',
                 'type'              => 'slug',
                 'target'            => 'text',
                 'tab'               => 'Simple',
@@ -871,7 +871,7 @@ class MonsterCrudController extends CrudController
             ],
             [
                 'name'              => 'email',
-                'label'             => 'Email'.backpack_free_badge(),
+                'label'             => 'Email',
                 'type'              => 'email',
                 'tab'               => 'Simple',
                 'wrapperAttributes' => [
@@ -880,20 +880,20 @@ class MonsterCrudController extends CrudController
             ],
             [   // Textarea
                 'name'  => 'textarea',
-                'label' => 'Textarea'.backpack_free_badge(),
+                'label' => 'Textarea',
                 'type'  => 'textarea',
                 'tab'   => 'Simple',
             ],
             [   // Number
                 'name'              => 'number',
-                'label'             => 'Number'.backpack_free_badge(),
+                'label'             => 'Number',
                 'type'              => 'number',
                 'tab'               => 'Simple',
                 'wrapperAttributes' => ['class' => 'form-group col-md-3'],
             ],
             [   // Number
                 'name'              => 'float',
-                'label'             => 'Float'.backpack_free_badge(),
+                'label'             => 'Float',
                 'type'              => 'number',
                 'attributes'        => ['step' => 'any'], // allow decimals
                 'tab'               => 'Simple',
@@ -901,7 +901,7 @@ class MonsterCrudController extends CrudController
             ],
             [   // Number
                 'name'              => 'number_with_prefix',
-                'label'             => 'Number with prefix'.backpack_free_badge(),
+                'label'             => 'Number with prefix',
                 'type'              => 'number',
                 'prefix'            => '$',
                 'fake'              => true,
@@ -911,7 +911,7 @@ class MonsterCrudController extends CrudController
             ],
             [   // Number
                 'name'              => 'number_with_suffix',
-                'label'             => 'Number with suffix'.backpack_free_badge(),
+                'label'             => 'Number with suffix',
                 'type'              => 'number',
                 'suffix'            => '.00',
                 'fake'              => true,
@@ -921,7 +921,7 @@ class MonsterCrudController extends CrudController
             ],
             [   // Number
                 'name'              => 'text_with_both_prefix_and_suffix',
-                'label'             => 'Text with both prefix and suffix'.backpack_free_badge(),
+                'label'             => 'Text with both prefix and suffix',
                 'type'              => 'number',
                 'prefix'            => '@',
                 'suffix'            => "<i class='fa fa-home'></i>",
@@ -932,7 +932,7 @@ class MonsterCrudController extends CrudController
             ],
             [   // Phone
                 'name'              => 'phone',
-                'label'             => 'Phone'.backpack_pro_badge(),
+                'label'             => 'Phone',
                 'type'              => 'phone',
                 'fake'              => true,
                 'store_in'          => 'extras',
@@ -941,14 +941,14 @@ class MonsterCrudController extends CrudController
             ],
             [   // Password
                 'name'              => 'password',
-                'label'             => 'Password'.backpack_free_badge(),
+                'label'             => 'Password',
                 'type'              => 'password',
                 'tab'               => 'Simple',
                 'wrapperAttributes' => ['class' => 'form-group col-md-4'],
             ],
             [
                 'name'    => 'radio', // the name of the db column
-                'label'   => 'Status (radio)'.backpack_free_badge(), // the input label
+                'label'   => 'Status (radio)', // the input label
                 'type'    => 'radio',
                 'options' => [ // the key will be stored in the db, the value will be shown as label;
                     0 => 'Draft',
@@ -961,19 +961,19 @@ class MonsterCrudController extends CrudController
             ],
             [
                 'name'  => 'status',
-                'label' => 'Status (enum)'.backpack_free_badge(),
+                'label' => 'Status (enum)',
                 'type'  => 'enum',
                 'tab'   => 'Simple',
             ],
             [   // Checkbox
                 'name'  => 'checkbox',
-                'label' => 'I have not read the terms and conditions and I never will (checkbox)'.backpack_free_badge(),
+                'label' => 'I have not read the terms and conditions and I never will (checkbox)',
                 'type'  => 'checkbox',
                 'tab'   => 'Simple',
             ],
             [   // Switch
                 'name'  => 'switch',
-                'label' => 'I have not read the terms and conditions and I never will (switch)'.backpack_free_badge(),
+                'label' => 'I have not read the terms and conditions and I never will (switch)',
                 'type'  => 'switch',
                 'tab'   => 'Simple',
                 'fake'  => true,
@@ -996,7 +996,7 @@ class MonsterCrudController extends CrudController
         $fields = [
             [   // Time
                 'name'              => 'time',
-                'label'             => 'Time'.backpack_free_badge(),
+                'label'             => 'Time',
                 'type'              => 'time',
                 'wrapperAttributes' => ['class' => 'form-group col-md-4'],
                 'tab'               => 'Time and space',
@@ -1004,21 +1004,21 @@ class MonsterCrudController extends CrudController
             ],
             [   // Month
                 'name'              => 'week',
-                'label'             => 'Week'.backpack_free_badge(),
+                'label'             => 'Week',
                 'type'              => 'week',
                 'wrapperAttributes' => ['class' => 'form-group col-md-4'],
                 'tab'               => 'Time and space',
             ],
             [   // Month
                 'name'              => 'month',
-                'label'             => 'Month'.backpack_free_badge(),
+                'label'             => 'Month',
                 'type'              => 'month',
                 'wrapperAttributes' => ['class' => 'form-group col-md-4'],
                 'tab'               => 'Time and space',
             ],
             [   // Date
                 'name'       => 'date',
-                'label'      => 'Date (HTML5 spec)'.backpack_free_badge(),
+                'label'      => 'Date (HTML5 spec)',
                 'type'       => 'date',
                 'attributes' => [
                     'pattern'     => '[0-9]{4}-[0-9]{2}-[0-9]{2}',
@@ -1030,7 +1030,7 @@ class MonsterCrudController extends CrudController
             [   // Date
                 // <span class="badge badge-pill bg-primary">PRO</span>
                 'name'  => 'date_picker',
-                'label' => 'Date picker (jQuery plugin)'.backpack_pro_badge(),
+                'label' => 'Date picker (jQuery plugin)',
                 'type'  => 'date_picker',
                 // optional:
                 'date_picker_options' => [
@@ -1043,14 +1043,14 @@ class MonsterCrudController extends CrudController
             ],
             [   // DateTime
                 'name'              => 'datetime',
-                'label'             => 'Datetime (HTML5 spec)'.backpack_free_badge(),
+                'label'             => 'Datetime (HTML5 spec)',
                 'type'              => 'datetime',
                 'wrapperAttributes' => ['class' => 'form-group col-md-6'],
                 'tab'               => 'Time and space',
             ],
             [   // DateTime
                 'name'  => 'datetime_picker',
-                'label' => 'Datetime picker (jQuery plugin)'.backpack_pro_badge(),
+                'label' => 'Datetime picker (jQuery plugin)',
                 'type'  => 'datetime_picker',
                 // optional:
                 'datetime_picker_options' => [
@@ -1062,7 +1062,7 @@ class MonsterCrudController extends CrudController
             ],
             [ // Date_range
                 'name'       => 'start_date,end_date', // a unique name for this field
-                'label'      => 'Date Range'.backpack_pro_badge(),
+                'label'      => 'Date Range',
                 'type'       => 'date_range',
                 'default'    => ['2020-03-28 01:01', '2020-04-05 02:00'],
                 // OPTIONALS
@@ -1077,7 +1077,7 @@ class MonsterCrudController extends CrudController
         if (env('GOOGLE_PLACES_KEY')) {
             $fields[] = [   // Address_google
                 'name'          => 'address_google',
-                'label'         => 'Address_google '.backpack_pro_badge(),
+                'label'         => 'Address_google ',
                 'type'          => 'address_google',
                 'fake'          => true,
                 'store_as_json' => true,
@@ -1104,7 +1104,7 @@ class MonsterCrudController extends CrudController
             [   // CustomHTML
                 'name'  => 'relationship_direct_relationships',
                 'type'  => 'custom_html',
-                'value' => '<h5 class="mb-0 mt-3 text-primary">Direct Relationships '.backpack_pro_badge().'</h5>',
+                'value' => '<h5 class="mb-0 mt-3 text-primary">Direct Relationships '.'</h5>',
                 'tab'   => 'Relationship',
             ],
 
@@ -1157,12 +1157,12 @@ class MonsterCrudController extends CrudController
             [   // CustomHTML
                 'name'  => 'relationship_direct_relationships_with_subfields',
                 'type'  => 'custom_html',
-                'value' => '<h5 class="mb-0 mt-4 text-primary">Direct Relationships + Subfields '.backpack_pro_badge().'</h5>',
+                'value' => '<h5 class="mb-0 mt-4 text-primary">Direct Relationships + Subfields '.'</h5>',
                 'tab'   => 'Relationship',
             ],
             [
                 'name'      => 'wish',
-                'label'     => 'HasOne (1-1) <small>+ subfields</small>'.backpack_new_badge(),
+                'label'     => 'HasOne (1-1) <small>+ subfields</small>',
                 'subfields' => [
                     [
                         'name' => 'country',
@@ -1184,7 +1184,7 @@ class MonsterCrudController extends CrudController
             ],
             [
                 'name'      => 'postalboxes',
-                'label'     => 'HasMany (1-n) <small>+ subfields</small>'.backpack_new_badge(),
+                'label'     => 'HasMany (1-n) <small>+ subfields</small>',
                 'subfields' => [
                     [
                         'name' => 'postal_name',
@@ -1198,7 +1198,7 @@ class MonsterCrudController extends CrudController
             ],
             [
                 'name'    => 'dummyproducts',
-                'label'   => 'BelongsToMany (n-n) <small>+ subfields for pivot table</small>'.backpack_new_badge(),
+                'label'   => 'BelongsToMany (n-n) <small>+ subfields for pivot table</small>',
                 'wrapper' => [
                     'class' => 'form-group col-md-4',
                 ],
@@ -1226,12 +1226,12 @@ class MonsterCrudController extends CrudController
             [   // CustomHTML
                 'name'  => 'relationship_polymorphic_relationships',
                 'type'  => 'custom_html',
-                'value' => '<hr class="mt-5 mb-5"><h5 class="mb-0 mt-3 text-primary">Polymorphic Relationships '.backpack_pro_badge().'</h5>',
+                'value' => '<hr class="mt-5 mb-5"><h5 class="mb-0 mt-3 text-primary">Polymorphic Relationships '.'</h5>',
                 'tab'   => 'Relationship',
             ],
             [
                 'name'    => 'sentiment.text',
-                'label'   => 'MorphOne (1-1 polymorphic) <small>towards an attribute</small>'.backpack_new_badge(),
+                'label'   => 'MorphOne (1-1 polymorphic) <small>towards an attribute</small>',
                 'type'    => 'relationship',
                 'wrapper' => [
                     'class' => 'form-group col-md-6',
@@ -1240,7 +1240,7 @@ class MonsterCrudController extends CrudController
             ],
             [
                 'name'    => 'sentiment.user',
-                'label'   => 'MorphOne (1-1 polymorphic) <small>towards a relation</small>'.backpack_new_badge(),
+                'label'   => 'MorphOne (1-1 polymorphic) <small>towards a relation</small>',
                 'wrapper' => [
                     'class' => 'form-group col-md-6',
                 ],
@@ -1248,7 +1248,7 @@ class MonsterCrudController extends CrudController
             ],
             [
                 'name'    => 'universes',
-                'label'   => 'MorphMany (1-n)'.backpack_new_badge(),
+                'label'   => 'MorphMany (1-n)',
                 'wrapper' => [
                     'class' => 'form-group col-md-6',
                 ],
@@ -1256,7 +1256,7 @@ class MonsterCrudController extends CrudController
             ],
             [
                 'name'    => 'bills',
-                'label'   => 'MorphToMany (n-n)'.backpack_new_badge(),
+                'label'   => 'MorphToMany (n-n)',
                 'wrapper' => [
                     'class' => 'form-group col-md-6',
                 ],
@@ -1270,13 +1270,13 @@ class MonsterCrudController extends CrudController
             [   // CustomHTML
                 'name'  => 'relationship_polymorphic_relationships_with_subfields',
                 'type'  => 'custom_html',
-                'value' => '<hr class="mt-5 mb-5"><h5 class="mb-0 mt-3 text-primary">Polymorphic Relationships + Subfields  '.backpack_pro_badge().'</h5>',
+                'value' => '<hr class="mt-5 mb-5"><h5 class="mb-0 mt-3 text-primary">Polymorphic Relationships + Subfields  '.'</h5>',
                 'tab'   => 'Relationship',
             ],
 
             [
                 'name'    => 'ball',
-                'label'   => 'MorphOne (1-1 polymorphic) <small>+ subfields</small>'.backpack_new_badge(),
+                'label'   => 'MorphOne (1-1 polymorphic) <small>+ subfields</small>',
                 'wrapper' => [
                     'class' => 'form-group col-md-4',
                 ],
@@ -1301,7 +1301,7 @@ class MonsterCrudController extends CrudController
             ],
             [
                 'name'    => 'stars',
-                'label'   => 'MorphMany (1-n) <small>+ subfields</small>'.backpack_new_badge(),
+                'label'   => 'MorphMany (1-n) <small>+ subfields</small>',
                 'wrapper' => [
                     'class' => 'form-group col-md-4',
                 ],
@@ -1316,7 +1316,7 @@ class MonsterCrudController extends CrudController
             ],
             [
                 'name'    => 'recommends',
-                'label'   => 'MorphToMany (n-n) <small>+ subfields for pivot table</small>'.backpack_new_badge(),
+                'label'   => 'MorphToMany (n-n) <small>+ subfields for pivot table</small>',
                 'wrapper' => [
                     'class' => 'form-group col-md-4',
                 ],
@@ -1336,7 +1336,7 @@ class MonsterCrudController extends CrudController
             [
                 'name'  => 'relationship_extra_features',
                 'type'  => 'custom_html',
-                'value' => '<hr class="mt-5 mb-5"><h5 class="mb-0 mt-3 text-primary">Extra Features  '.backpack_pro_badge().'</a></h5>',
+                'value' => '<hr class="mt-5 mb-5"><h5 class="mb-0 mt-3 text-primary">Extra Features  '.'</a></h5>',
                 'tab'   => 'Relationship',
             ],
 
@@ -1394,7 +1394,7 @@ class MonsterCrudController extends CrudController
 
             [ // select_from_array
                 'name'              => 'select_from_array',
-                'label'             => 'Select_from_array (no relationship, 1-1 or 1-n)'.backpack_free_badge(),
+                'label'             => 'Select_from_array (no relationship, 1-1 or 1-n)',
                 'type'              => 'select_from_array',
                 'options'           => ['one' => 'One', 'two' => 'Two', 'three' => 'Three'],
                 'allows_null'       => true,
@@ -1404,7 +1404,7 @@ class MonsterCrudController extends CrudController
             ],
             [ // select2_from_array
                 'name'              => 'select2_from_array',
-                'label'             => 'Select2_from_array (no relationship, 1-1 or 1-n)'.backpack_pro_badge(),
+                'label'             => 'Select2_from_array (no relationship, 1-1 or 1-n)',
                 'type'              => 'select2_from_array',
                 'options'           => ['one' => 'One', 'two' => 'Two', 'three' => 'Three'],
                 'allows_null'       => true,
@@ -1414,7 +1414,7 @@ class MonsterCrudController extends CrudController
             ],
             [ // select_and_order
                 'name'    => 'select_and_order',
-                'label'   => 'Select_and_order'.backpack_pro_badge(),
+                'label'   => 'Select_and_order',
                 'type'    => 'select_and_order',
                 'options' => [
                     1 => 'Option 1',
@@ -1442,7 +1442,7 @@ class MonsterCrudController extends CrudController
                 'tab'   => 'Selects',
             ],
             [   // select
-                'label'                      => 'Select'.backpack_free_badge(),
+                'label'                      => 'Select',
                 'type'                       => 'select', //https://github.com/Laravel-Backpack/CRUD/issues/502
                 'name'                       => 'select',
                 'entity'                     => 'category',
@@ -1453,7 +1453,7 @@ class MonsterCrudController extends CrudController
                 'wrapperAttributes'          => ['class' => 'form-group col-md-4'],
             ],
             [   // select_grouped
-                'label'                      => 'Select_grouped'.backpack_free_badge(),
+                'label'                      => 'Select_grouped',
                 'type'                       => 'select_grouped', //https://github.com/Laravel-Backpack/CRUD/issues/502
                 'name'                       => 'select_grouped_id',
                 'fake'                       => true,
@@ -1467,7 +1467,7 @@ class MonsterCrudController extends CrudController
                 'wrapperAttributes'          => ['class' => 'form-group col-md-4'],
             ],
             [   // select2_grouped
-                'label'                      => 'Select2_grouped'.backpack_pro_badge(),
+                'label'                      => 'Select2_grouped',
                 'type'                       => 'select2_grouped', //https://github.com/Laravel-Backpack/CRUD/issues/502
                 'name'                       => 'select2_grouped_id',
                 'fake'                       => true,
@@ -1481,7 +1481,7 @@ class MonsterCrudController extends CrudController
                 'wrapperAttributes'          => ['class' => 'form-group col-md-4'],
             ],
             [    // SELECT2
-                'label'             => 'Select2'.backpack_pro_badge(),
+                'label'             => 'Select2',
                 'type'              => 'select2',
                 'name'              => 'select2',
                 'entity'            => 'categorySelect2',
@@ -1492,7 +1492,7 @@ class MonsterCrudController extends CrudController
             ],
             [   // select2_nested
                 'name'                       => 'select2_nested_id',
-                'label'                      => 'Select2_nested'.backpack_pro_badge(),
+                'label'                      => 'Select2_nested',
                 'type'                       => 'select2_nested',
                 'fake'                       => true,
                 'entity'                     => 'category', // the method that defines the relationship in your Model
@@ -1502,7 +1502,7 @@ class MonsterCrudController extends CrudController
                 'wrapperAttributes'          => ['class' => 'form-group col-md-4'],
             ],
             [ // select2_from_ajax: 1-n relationship
-                'label'                => 'Select2_from_ajax'.backpack_pro_badge(), // Table column heading
+                'label'                => 'Select2_from_ajax', // Table column heading
                 'type'                 => 'select2_from_ajax',
                 'name'                 => 'select2_from_ajax', // the column that contains the ID of that connected entity;
                 'entity'               => 'article', // the method that defines the relationship in your Model
@@ -1523,7 +1523,7 @@ class MonsterCrudController extends CrudController
                 'tab'   => 'Selects',
             ],
             [
-                'label'     => 'Checklist'.backpack_free_badge(),
+                'label'     => 'Checklist',
                 'type'      => 'checklist',
                 'name'      => 'roles',
                 'entity'    => 'roles',
@@ -1533,7 +1533,7 @@ class MonsterCrudController extends CrudController
                 'tab'       => 'Selects',
             ],
             [       // Select_Multiple = n-n relationship
-                'label'     => 'Select_multiple'.backpack_free_badge(),
+                'label'     => 'Select_multiple',
                 'type'      => 'select_multiple',
                 'name'      => 'tags', // the method that defines the relationship in your Model
                 'entity'    => 'tags', // the method that defines the relationship in your Model
@@ -1544,7 +1544,7 @@ class MonsterCrudController extends CrudController
                 // 'wrapperAttributes' => ['class' => 'form-group col-md-12'],
             ],
             [       // Select2Multiple = n-n relationship (with pivot table)
-                'label'             => 'Select2_multiple'.backpack_pro_badge(),
+                'label'             => 'Select2_multiple',
                 'type'              => 'select2_multiple',
                 'name'              => 'categories', // the method that defines the relationship in your Model
                 'entity'            => 'categories', // the method that defines the relationship in your Model
@@ -1556,7 +1556,7 @@ class MonsterCrudController extends CrudController
                 'wrapperAttributes' => ['class' => 'form-group col-md-6'],
             ],
             [ // Select2_from_ajax_multiple: n-n relationship with pivot table
-                'label'                => 'Select2_from_ajax_multiple'.backpack_pro_badge(), // Table column heading
+                'label'                => 'Select2_from_ajax_multiple', // Table column heading
                 'type'                 => 'select2_from_ajax_multiple',
                 'name'                 => 'articles', // the column that contains the ID of that connected entity;
                 'entity'               => 'articles', // the method that defines the relationship in your Model
@@ -1571,7 +1571,7 @@ class MonsterCrudController extends CrudController
                 'wrapperAttributes'    => ['class' => 'form-group col-md-6'],
             ],
             [ // Select2_json_from_api paginated
-                'label'                  => 'Select2_json_from_api (paginated)'.backpack_pro_badge(), // Table column heading
+                'label'                  => 'Select2_json_from_api (paginated)', // Table column heading
                 'type'                   => 'select2_json_from_api',
                 'name'                   => 'select2_json_from_api', // the column that contains the ID of that connected entity;
                 'attribute'              => 'title', // foreign key attribute that is shown to user
@@ -1585,7 +1585,7 @@ class MonsterCrudController extends CrudController
                 'multiple'               => true,
             ],
             [ // Select2_json_from_api not paginated
-                'label'                => 'Select2_json_from_api (simple array)'.backpack_pro_badge(), // Table column heading
+                'label'                => 'Select2_json_from_api (simple array)', // Table column heading
                 'type'                 => 'select2_json_from_api',
                 'name'                 => 'select2_json_from_api_simple', // the column that contains the ID of that connected entity;
                 'data_source'          => backpack_url('monster/fetch/simple-types'), // url to controller search function (with /{id} should return model)
@@ -1618,14 +1618,14 @@ class MonsterCrudController extends CrudController
 
         $fields[] = [   // Browse
             'name'  => 'browse',
-            'label' => 'Browse (using elFinder)'.backpack_pro_badge(),
+            'label' => 'Browse (using elFinder)',
             'type'  => 'browse',
             'tab'   => 'Uploads',
         ];
 
         $fields[] = [   // Browse multiple
             'name'     => 'browse_multiple',
-            'label'    => 'Browse multiple'.backpack_pro_badge(),
+            'label'    => 'Browse multiple',
             'type'     => 'browse_multiple',
             'tab'      => 'Uploads',
             'sortable' => true,
@@ -1635,7 +1635,7 @@ class MonsterCrudController extends CrudController
 
         $fields[] = [   // Upload
             'name'   => 'upload',
-            'label'  => 'Upload'.backpack_free_badge(),
+            'label'  => 'Upload',
             'type'   => 'upload',
             'upload' => true,
             'disk'   => 'uploads', // if you store files in the /public folder, please ommit this; if you store them in /storage or S3, please specify it;
@@ -1646,7 +1646,7 @@ class MonsterCrudController extends CrudController
 
         $fields[] = [   // Upload
             'name'   => 'upload_multiple',
-            'label'  => 'Upload Multiple'.backpack_free_badge(),
+            'label'  => 'Upload Multiple',
             'type'   => 'upload_multiple',
             'upload' => true,
             // 'disk' => 'uploads', // if you store files in the /public folder, please ommit this; if you store them in /storage or S3, please specify it;
@@ -1656,7 +1656,7 @@ class MonsterCrudController extends CrudController
         ];
 
         $fields[] = [ // base64_image
-            'label'        => 'Base64 Image - includes cropping'.backpack_pro_badge(),
+            'label'        => 'Base64 Image - includes cropping',
             'name'         => 'base64_image',
             'filename'     => null, // set to null if not needed
             'type'         => 'base64_image',
@@ -1667,7 +1667,7 @@ class MonsterCrudController extends CrudController
         ];
 
         $fields[] = [ // image
-            'label'        => 'Image - includes cropping'.backpack_pro_badge(),
+            'label'        => 'Image - includes cropping',
             'name'         => 'image',
             'type'         => 'image',
             'upload'       => true,
@@ -1679,7 +1679,7 @@ class MonsterCrudController extends CrudController
         ];
 
         $fields[] = [
-            'label'        => 'Dropzone - drag&drop '.backpack_pro_badge(),
+            'label'        => 'Dropzone - drag&drop ',
             'name'         => 'dropzone',
             'type'         => 'dropzone',
             'tab'          => 'Uploads',
@@ -1698,31 +1698,31 @@ class MonsterCrudController extends CrudController
         return [
             [   // EasyMDE
                 'name'  => 'easymde',
-                'label' => 'EasyMDE - markdown editor'.backpack_pro_badge(),
+                'label' => 'EasyMDE - markdown editor',
                 'type'  => 'easymde',
                 'tab'   => 'WYSIWYG Editors',
             ],
             [   // Summernote
                 'name'  => 'summernote',
-                'label' => 'Summernote editor'.backpack_free_badge(),
+                'label' => 'Summernote editor',
                 'type'  => 'summernote',
                 'tab'   => 'WYSIWYG Editors',
             ],
             [   // CKEditor
                 'name'  => 'ckeditor',
-                'label' => 'CKEditor - also called the WYSIWYG field'.backpack_pro_badge(),
+                'label' => 'CKEditor - also called the WYSIWYG field',
                 'type'  => 'ckeditor',
                 'tab'   => 'WYSIWYG Editors',
             ],
             [   // TinyMCE
                 'name'  => 'tinymce',
-                'label' => 'TinyMCE'.backpack_pro_badge(),
+                'label' => 'TinyMCE',
                 'type'  => 'tinymce',
                 'tab'   => 'WYSIWYG Editors',
             ],
             [   // Wysiwyg
                 'name'  => 'wysiwyg',
-                'label' => 'Wysiwyg'.backpack_pro_badge(),
+                'label' => 'Wysiwyg',
                 'type'  => 'wysiwyg',
                 'tab'   => 'WYSIWYG Editors',
             ],
@@ -1738,7 +1738,7 @@ class MonsterCrudController extends CrudController
         return [
             [   // Color
                 'name'  => 'color',
-                'label' => 'Color picker (HTML5 spec)'.backpack_free_badge(),
+                'label' => 'Color picker (HTML5 spec)',
                 'type'  => 'color',
                 // 'wrapperAttributes' => ['class' => 'col-md-6'],
                 'tab'               => 'Miscellaneous',
@@ -1746,14 +1746,14 @@ class MonsterCrudController extends CrudController
             ],
             [   // Video
                 'name'              => 'video',
-                'label'             => 'Video - link to video file on Youtube or Vimeo'.backpack_pro_badge(),
+                'label'             => 'Video - link to video file on Youtube or Vimeo',
                 'type'              => 'video',
                 'tab'               => 'Miscellaneous',
                 'wrapperAttributes' => ['class' => 'form-group col-md-6'],
             ],
             [   // Range
                 'name'  => 'range',
-                'label' => 'Range'.backpack_free_badge(),
+                'label' => 'Range',
                 'type'  => 'range',
                 //optional
                 'attributes' => [
@@ -1764,7 +1764,7 @@ class MonsterCrudController extends CrudController
                 'wrapperAttributes' => ['class' => 'form-group col-md-6'],
             ],
             [   // Icon picker
-                'label'             => 'Icon Picker'.backpack_pro_badge(),
+                'label'             => 'Icon Picker',
                 'name'              => 'icon_picker',
                 'type'              => 'icon_picker',
                 'iconset'           => 'fontawesome', // options: fontawesome, glyphicon, ionicon, weathericon, mapicon, octicon, typicon, elusiveicon, materialdesign
@@ -1773,7 +1773,7 @@ class MonsterCrudController extends CrudController
             ],
             [ // Table
                 'name'            => 'table',
-                'label'           => 'Table'.backpack_pro_badge(),
+                'label'           => 'Table',
                 'type'            => 'table',
                 'entity_singular' => 'subentry', // used on the "Add X" button
                 'columns'         => [
@@ -1787,7 +1787,7 @@ class MonsterCrudController extends CrudController
             ],
             [ // Table
                 'name'            => 'fake_table',
-                'label'           => 'Fake Table'.backpack_pro_badge(),
+                'label'           => 'Fake Table',
                 'type'            => 'table',
                 'entity_singular' => 'subentry', // used on the "Add X" button
                 'columns'         => [
@@ -1803,12 +1803,12 @@ class MonsterCrudController extends CrudController
             [
                 'name'  => 'url',
                 'type'  => 'url',
-                'label' => 'URL'.backpack_free_badge(),
+                'label' => 'URL',
                 'tab'   => 'Miscellaneous',
             ],
             [
                 'name'      => 'features',
-                'label'     => 'Features'.backpack_pro_badge(),
+                'label'     => 'Features',
                 'type'      => 'repeatable',
                 'fake'      => true,
                 'subfields' => [

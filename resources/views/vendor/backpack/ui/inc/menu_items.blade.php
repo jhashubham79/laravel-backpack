@@ -62,3 +62,4 @@
 </x-backpack::menu-dropdown>
 
 <x-backpack::menu-item title="Users" icon="la la-question" :link="backpack_url('user')" />
+<x-backpack::menu-item title="Escort models" icon="la la-question" :link="backpack_url('escort-model')" />

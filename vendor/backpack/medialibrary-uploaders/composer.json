@@ -1,0 +1,39 @@
+{
+    "name": "backpack/medialibrary-uploaders",
+    "description": "Helper functions to save files with spatie media library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tabacitu",
+            "email": "hello@backpackforlaravel.com",
+            "homepage": "https://backpackforlaravel.com"
+        }
+    ],
+    "homepage": "https://github.com/backpack/medialibrary-uploaders",
+    "keywords": [
+        "Laravel", "Backpack", "Backpack for Laravel", "Backpack Addon", "spatie medialibrary uploaders"
+    ],
+    "require": {
+        "backpack/crud": "^6.0",
+        "spatie/laravel-medialibrary": "^10.7|^11.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0|^10.0",
+        "orchestra/testbench": "~6|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Backpack\\MediaLibraryUploaders\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --testdox"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Backpack\\MediaLibraryUploaders\\AddonServiceProvider"
+            ]
+        }
+    }
+}

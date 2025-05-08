@@ -1,0 +1,55 @@
+{
+    "name": "backpack/translation-manager",
+    "description": "Translation Manager for Backpack",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonio Almeida",
+            "email": "promatik@gmail.com",
+            "homepage": "https://promatik.pt"
+        },
+        {
+            "name": "Cristian Tabacitu",
+            "email": "cristian.tabacitu@backpackforlaravel.com",
+            "homepage": "https://backpackforlaravel.com"
+        }
+    ],
+    "homepage": "https://github.com/backpack/translation-manager",
+    "keywords": [
+        "Laravel", "Backpack", "Backpack for Laravel", "Backpack Addon", "TranslationManager"
+    ],
+    "require": {
+        "backpack/crud": "^6.7",
+        "spatie/laravel-translation-loader": "^2.8",
+        "outhebox/blade-flags": "^1.2",
+        "calebporzio/sushi": "^2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~10.0|~11.0",
+        "orchestra/testbench": "~8.0|~9.0",
+        "larastan/larastan": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Backpack\\TranslationManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Backpack\\TranslationManager\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "analyse": [
+            "vendor/bin/phpstan analyse"
+        ],
+        "test": "vendor/bin/phpunit --testdox"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Backpack\\TranslationManager\\AddonServiceProvider"
+            ]
+        }
+    }
+}

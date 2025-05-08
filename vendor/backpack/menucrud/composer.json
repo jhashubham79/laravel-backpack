@@ -1,0 +1,44 @@
+{
+    "name": "backpack/menucrud",
+    "type": "library",
+    "description": "An admin panel for menu items, using Backpack\\CRUD on Laravel 6.",
+    "keywords": [
+        "backpack",
+        "MenuCRUD"
+    ],
+    "homepage": "https://github.com/backpack/MenuCRUD",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Cristian Tabacitu",
+            "email": "tabacitu@backpackforlaravel.com",
+            "homepage": "https://backpackforlaravel.com",
+            "role": "Lead Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "backpack/crud": "^6.0",
+        "backpack/pagemanager": "^3.2"
+    },
+    "require-dev": {
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3 || ~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Backpack\\MenuCRUD\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Backpack\\MenuCRUD\\MenuCRUDServiceProvider"
+            ]
+        }
+    }
+}

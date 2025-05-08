@@ -50,7 +50,7 @@ return [
 
         'public' => [
             'driver'     => 'local',
-            'root'       => storage_path('app/public'),
+            'root'       => public_path('/'),
             'url'        => env('APP_URL').'/storage',
             'visibility' => 'public',
             'throw'      => false,
@@ -63,7 +63,7 @@ return [
 
         'backups' => [ // used for Backpack/BackupManager
             'driver' => 'local',
-            'root'   => storage_path('backups'), // that's where your backups are stored by default: storage/backups
+            'root'   => public_path('backups'), // that's where your backups are stored by default: storage/backups
         ],
 
         'storage' => [ // used for Backpack/LogManager

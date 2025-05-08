@@ -9,7 +9,6 @@
         "backpack/activity-log": "^2.0.3",
         "backpack/backupmanager": "^5.0",
         "backpack/crud": "^6.8",
-        "backpack/editable-columns": "*",
         "backpack/filemanager": "^3.0",
         "backpack/language-switcher": "^2.0",
         "backpack/logmanager": "^5.0",
